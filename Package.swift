@@ -22,6 +22,10 @@ let package = Package(
             dependencies: [
                 // Commented out for simulator testing - uses mock implementation
                 // .product(name: "MetaWearablesDAT", package: "meta-wearables-dat-ios")
+            ],
+            resources: [
+                // Include Metal shaders for photogrammetry and super-resolution
+                .process("Shaders/PhotogrammetryShaders.metal")
             ]
         ),
         .testTarget(

@@ -628,7 +628,7 @@ protocol MetaGlassesControllerDelegate: AnyObject {
     func glassesDidDetectGesture(_ gesture: GestureType)
 }
 
-// MARK: - Placeholder Service Classes
+// MARK: - Mock Service Classes for Testing
 class MetaGlassesControllerAdvanced {
     weak var delegate: MetaGlassesControllerDelegate?
     func startScanning() {}

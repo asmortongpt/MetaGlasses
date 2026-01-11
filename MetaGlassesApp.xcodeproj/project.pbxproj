@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B23FCA6F89E47ECF85E1F43 /* RealTimeSLAM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20C490331C052B6921F75A2 /* RealTimeSLAM.swift */; };
+		77989D11C1761E2CC2996428 /* NeuralRadianceFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA9373863947B6C42BBAB2 /* NeuralRadianceFields.swift */; };
+		7E5AD9B1F5254296F2E7D2D4 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5ADE1F3A9FE133F4DC48BC /* SplashScreenView.swift */; };
 		A1000505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1000005 /* LaunchScreen.storyboard */; };
 		A1000508 /* MetaGlassesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000006 /* MetaGlassesApp.swift */; };
+		CABC283E5C0474D9DCDD310D /* PracticalImprovements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FF4539EF9B14F41299DE2B /* PracticalImprovements.swift */; };
+		DF3CE7939929DC6B1F39994A /* MetaGlassesLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCB1B7543B9730A9EFDAEB9 /* MetaGlassesLogo.swift */; };
+		E469F1DE681DA5325FAC9CEF /* SharedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AF4CD975811F19781772E9 /* SharedTypes.swift */; };
+		F365EBD727E2CA07A729A617 /* Photogrammetry3DSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FBF7CB95212017DE30E8AD /* Photogrammetry3DSystem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05FF4539EF9B14F41299DE2B /* PracticalImprovements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PracticalImprovements.swift; sourceTree = "<group>"; };
+		2D5ADE1F3A9FE133F4DC48BC /* SplashScreenView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		5ADA9373863947B6C42BBAB2 /* NeuralRadianceFields.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NeuralRadianceFields.swift; sourceTree = "<group>"; };
+		67AF4CD975811F19781772E9 /* SharedTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharedTypes.swift; sourceTree = "<group>"; };
 		A1000001 /* TestAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppDelegate.swift; sourceTree = "<group>"; };
 		A1000002 /* TestDualCaptureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDualCaptureViewController.swift; sourceTree = "<group>"; };
 		A1000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1000004 /* MetaGlassesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaGlassesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000005 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1000006 /* MetaGlassesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaGlassesApp.swift; sourceTree = "<group>"; };
-		A1000010 /* Sources/MetaGlassesCamera */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources/MetaGlassesCamera; sourceTree = "<group>"; };
+		A1000010 /* MetaGlassesCamera */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources/MetaGlassesCamera; sourceTree = "<group>"; };
+		AFCB1B7543B9730A9EFDAEB9 /* MetaGlassesLogo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MetaGlassesLogo.swift; sourceTree = "<group>"; };
+		B4FBF7CB95212017DE30E8AD /* Photogrammetry3DSystem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Photogrammetry3DSystem.swift; sourceTree = "<group>"; };
+		E20C490331C052B6921F75A2 /* RealTimeSLAM.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RealTimeSLAM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +54,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A1000101 /* . */ = {
+		A1000101 = {
 			isa = PBXGroup;
 			children = (
 				A1000006 /* MetaGlassesApp.swift */,
@@ -48,7 +62,14 @@
 				A1000002 /* TestDualCaptureViewController.swift */,
 				A1000003 /* Info.plist */,
 				A1000005 /* LaunchScreen.storyboard */,
-				A1000010 /* Sources/MetaGlassesCamera */,
+				A1000010 /* MetaGlassesCamera */,
+				05FF4539EF9B14F41299DE2B /* PracticalImprovements.swift */,
+				B4FBF7CB95212017DE30E8AD /* Photogrammetry3DSystem.swift */,
+				5ADA9373863947B6C42BBAB2 /* NeuralRadianceFields.swift */,
+				E20C490331C052B6921F75A2 /* RealTimeSLAM.swift */,
+				67AF4CD975811F19781772E9 /* SharedTypes.swift */,
+				AFCB1B7543B9730A9EFDAEB9 /* MetaGlassesLogo.swift */,
+				2D5ADE1F3A9FE133F4DC48BC /* SplashScreenView.swift */,
 			);
 			path = .;
 			sourceTree = "<group>";
@@ -58,7 +79,7 @@
 /* Begin PBXNativeTarget section */
 		A1000500 /* MetaGlassesApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1000300 /* Build configuration list for PBXNativeTarget "MetaGlassesApp" */;
+			buildConfigurationList = A1000300 /* Build configuration list for PBXProject "MetaGlassesApp" */;
 			buildPhases = (
 				A1000501 /* Sources */,
 				A1000502 /* Frameworks */,
@@ -82,7 +103,7 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 2610;
 			};
-			buildConfigurationList = A1000300 /* Build configuration list for PBXNativeTarget "MetaGlassesApp" */;
+			buildConfigurationList = A1000300 /* Build configuration list for PBXProject "MetaGlassesApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -90,7 +111,7 @@
 				en,
 				Base,
 			);
-			mainGroup = A1000101 /* . */;
+			mainGroup = A1000101;
 			productRefGroup = A1000100 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -117,6 +138,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1000508 /* MetaGlassesApp.swift in Sources */,
+				CABC283E5C0474D9DCDD310D /* PracticalImprovements.swift in Sources */,
+				F365EBD727E2CA07A729A617 /* Photogrammetry3DSystem.swift in Sources */,
+				77989D11C1761E2CC2996428 /* NeuralRadianceFields.swift in Sources */,
+				5B23FCA6F89E47ECF85E1F43 /* RealTimeSLAM.swift in Sources */,
+				E469F1DE681DA5325FAC9CEF /* SharedTypes.swift in Sources */,
+				DF3CE7939929DC6B1F39994A /* MetaGlassesLogo.swift in Sources */,
+				7E5AD9B1F5254296F2E7D2D4 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +261,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1000300 /* Build configuration list for PBXNativeTarget "MetaGlassesApp" */ = {
+		A1000300 /* Build configuration list for PBXProject "MetaGlassesApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A1000301 /* Debug */,

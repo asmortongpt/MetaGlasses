@@ -518,10 +518,14 @@ class Photogrammetry3DSystem: NSObject, ObservableObject {
         // Get GPU name and calculate utilization based on active command buffers
         // This is an approximation since iOS doesn't expose direct GPU metrics
         let deviceUtilization = device.currentAllocatedSize
-        let recommendedMaxWorkingSetSize = device.recommendedMaxWorkingSetSize
 
-        if recommendedMaxWorkingSetSize > 0 {
-            return Double(deviceUtilization) / Double(recommendedMaxWorkingSetSize)
+        // recommendedMaxWorkingSetSize requires iOS 16+
+        if #available(iOS 16.0, *) {
+            let recommendedMaxWorkingSetSize = device.recommendedMaxWorkingSetSize
+
+            if recommendedMaxWorkingSetSize > 0 {
+                return Double(deviceUtilization) / Double(recommendedMaxWorkingSetSize)
+            }
         }
 
         // Fallback: estimate based on whether we have active work
@@ -915,8 +919,15 @@ class Photogrammetry3DSystem: NSObject, ObservableObject {
         let regionWidth = imageSize.width / CGFloat(gridSize)
         let regionHeight = imageSize.height / CGFloat(gridSize)
 
-        // Extract feature print data
-        guard let featureData = try? featurePrint.data(forElementCount: featurePrint.elementCount) else {
+        // Extract feature print data from MLMultiArray
+        let featureDataArray = featurePrint.data
+        let featureCount = featureDataArray.count
+        var featureData: [Float] = []
+        for i in 0..<featureCount {
+            featureData.append(Float(truncating: featureDataArray[i] as NSNumber))
+        }
+
+        guard !featureData.isEmpty else {
             return DetailMap(lowDetailRegions: [], detailScores: detailScores)
         }
 
@@ -933,9 +944,13 @@ class Photogrammetry3DSystem: NSObject, ObservableObject {
                 // Calculate detail score from feature print variance in this region
                 let regionIdx = row * gridSize + col
                 let startIdx = min(regionIdx * 4, featureData.count - 4)
-                let featureSlice = featureData[startIdx..<min(startIdx + 4, featureData.count)]
+                let endIdx = min(startIdx + 4, featureData.count)
+                let featureSlice = featureData[startIdx..<endIdx]
 
-                let variance = featureSlice.map { $0 * $0 }.reduce(0, +) / Float(featureSlice.count)
+                // Break complex expression into sub-expressions
+                let squaredValues = featureSlice.map { $0 * $0 }
+                let sum = squaredValues.reduce(0, +)
+                let variance = sum / Float(featureSlice.count)
                 let detailScore = variance // Higher variance = more detail
 
                 // Mark low-detail regions (below threshold)
@@ -1582,9 +1597,9 @@ class Photogrammetry3DSystem: NSObject, ObservableObject {
             ) {
                 let feature = Feature(
                     location: keypoint.location,
+                    descriptor: descriptor,
                     scale: keypoint.scale,
-                    orientation: keypoint.orientation,
-                    descriptor: descriptor
+                    orientation: keypoint.orientation
                 )
                 features.append(feature)
             }
@@ -1674,13 +1689,13 @@ class Photogrammetry3DSystem: NSObject, ObservableObject {
             rowBytes: outputBuffer.rowBytes
         )
 
-        // Apply separable convolution for Gaussian blur
-        error = vImageConvolve_ARGB8888(
+        // Apply box convolution for Gaussian-like blur approximation
+        // Box convolution is faster and doesn't require a kernel matrix
+        error = vImageBoxConvolve_ARGB8888(
             &buffer,
             &outBuffer,
             nil,
             0, 0,
-            nil,
             UInt32(kernelRadius * 2 + 1),
             UInt32(kernelRadius * 2 + 1),
             nil,
@@ -2137,9 +2152,9 @@ class Photogrammetry3DSystem: NSObject, ObservableObject {
 
                 let feature = Feature(
                     location: SIMD2<Float>(Float(x), Float(y)),
+                    descriptor: descriptor,
                     scale: 1.0,
-                    orientation: 0.0,
-                    descriptor: descriptor
+                    orientation: 0.0
                 )
 
                 features.append(feature)

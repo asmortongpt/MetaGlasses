@@ -13,11 +13,11 @@
           "location" : "https://github.com/facebook/meta-wearables-dat-ios.git",
           "name" : "MetaWearablesDAT"
         },
-        "path" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/checkouts/meta-wearables-dat-ios/MWDATMockDevice.xcframework",
+        "path" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/checkouts/meta-wearables-dat-ios/MWDATCamera.xcframework",
         "source" : {
           "type" : "local"
         },
-        "targetName" : "MWDATMockDevice"
+        "targetName" : "MWDATCamera"
       },
       {
         "kind" : {
@@ -49,11 +49,11 @@
           "location" : "https://github.com/facebook/meta-wearables-dat-ios.git",
           "name" : "MetaWearablesDAT"
         },
-        "path" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/checkouts/meta-wearables-dat-ios/MWDATCamera.xcframework",
+        "path" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/checkouts/meta-wearables-dat-ios/MWDATMockDevice.xcframework",
         "source" : {
           "type" : "local"
         },
-        "targetName" : "MWDATCamera"
+        "targetName" : "MWDATMockDevice"
       }
     ],
     "dependencies" : [

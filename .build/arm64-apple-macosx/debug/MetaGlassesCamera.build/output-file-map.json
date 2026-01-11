@@ -316,5 +316,12 @@
     "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation~partial.swiftmodule",
     "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.swiftdeps",
     "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/resource_bundle_accessor.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/resource_bundle_accessor.dia"
   }
 }

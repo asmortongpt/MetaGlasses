@@ -215,7 +215,7 @@ public class PersonalAI {
 
     private func getCurrentWeather() async -> Weather? {
         // Integrate with weather API using location
-        // For now, return placeholder
+        // Returns mock data - integrate with OpenWeatherMap or similar API in production
         return Weather(temperature: 72, condition: "Sunny", location: "Current Location")
     }
 

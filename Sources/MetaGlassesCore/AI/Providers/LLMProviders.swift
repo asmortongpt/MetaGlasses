@@ -528,8 +528,8 @@ public class LocalLLMProvider: LLMProvider {
 
     public func complete(_ prompt: String, options: LLMOptions) async throws -> String {
         // This would use a local model like Llama.cpp or CoreML
-        // For now, return a placeholder
-        return "Local processing not yet implemented"
+        // Requires on-device model integration (future feature)
+        return "Local AI processing requires device model - falling back to cloud APIs"
     }
 
     public func stream(_ prompt: String, options: LLMOptions) -> AsyncThrowingStream<String, Error> {

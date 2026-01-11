@@ -3,7 +3,20 @@
 
   ],
   "copyCommands" : {
-
+    "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera_MetaGlassesCamera.bundle/PhotogrammetryShaders.metal" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Shaders/PhotogrammetryShaders.metal"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera_MetaGlassesCamera.bundle/PhotogrammetryShaders.metal"
+        }
+      ]
+    }
   },
   "explicitTargetDependencyImportCheckingMode" : {
     "none" : {
@@ -204,7 +217,15 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<MetaGlassesCamera-arm64-apple-macosx26.0-debug.module-resources>"
         },
         {
           "kind" : "file",
@@ -259,7 +280,8 @@
         "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AdvancedOCR.swift.o",
         "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GestureRecognizer.swift.o",
         "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ObjectDetector.swift.o",
-        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.swift.o"
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/resource_bundle_accessor.swift.o"
       ],
       "otherArguments" : [
         "-target",
@@ -274,7 +296,7 @@
         "-j12",
         "-DSWIFT_PACKAGE",
         "-DDEBUG",
-        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
         "-module-cache-path",
         "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/ModuleCache",
         "-parseable-output",
@@ -500,6 +522,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/Modules/MetaGlassesCamera.swiftmodule"
         }
       ],
@@ -549,7 +575,8 @@
         "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/AdvancedOCR.swift",
         "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/GestureRecognizer.swift",
         "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/ObjectDetector.swift",
-        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift"
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DerivedSources/resource_bundle_accessor.swift"
       ],
       "tempsPath" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build",
       "wholeModuleOptimization" : false
@@ -611,6 +638,7 @@
       "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/GestureRecognizer.swift",
       "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/ObjectDetector.swift",
       "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DerivedSources/resource_bundle_accessor.swift",
       "-I",
       "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/Modules",
       "-target",
@@ -625,7 +653,7 @@
       "-j12",
       "-DSWIFT_PACKAGE",
       "-DDEBUG",
-      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
       "-module-cache-path",
       "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/ModuleCache",
       "-parseable-output",
@@ -873,6 +901,10 @@
         {
           "kind" : "file",
           "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DerivedSources/resource_bundle_accessor.swift"
         }
       ],
       "outputFilePath" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/sources"

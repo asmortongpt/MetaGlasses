@@ -706,12 +706,36 @@ class DataStore {
 
     func hasOfflineTranslationModels() -> Bool {
         // Check if offline translation models are downloaded
-        return false // Placeholder
+        let modelPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?
+            .appendingPathComponent("TranslationModels")
+
+        if let path = modelPath, FileManager.default.fileExists(atPath: path.path) {
+            // Check for at least one .mlmodel or .mlmodelc file
+            do {
+                let contents = try FileManager.default.contentsOfDirectory(at: path, includingPropertiesForKeys: nil)
+                return contents.contains { $0.pathExtension == "mlmodelc" || $0.pathExtension == "mlmodel" }
+            } catch {
+                return false
+            }
+        }
+        return false
     }
 
     func hasOfflineMaps() -> Bool {
         // Check if offline maps are available
-        return false // Placeholder
+        let mapsPath = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?
+            .appendingPathComponent("OfflineMaps")
+
+        if let path = mapsPath, FileManager.default.fileExists(atPath: path.path) {
+            // Check for map tile data
+            do {
+                let contents = try FileManager.default.contentsOfDirectory(at: path, includingPropertiesForKeys: nil)
+                return !contents.isEmpty
+            } catch {
+                return false
+            }
+        }
+        return false
     }
 }
 
