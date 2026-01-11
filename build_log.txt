@@ -1,0 +1,17 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme MetaGlassesApp -sdk iphoneos -destination id=00008150-001625183A80401C -configuration Debug -derivedDataPath ./DerivedData -allowProvisioningUpdates clean build install CODE_SIGN_STYLE=Automatic DEVELOPMENT_TEAM=
+
+Build settings from command line:
+    CODE_SIGN_STYLE = Automatic
+    DEVELOPMENT_TEAM = 
+    SDKROOT = iphoneos26.1
+
+2026-01-09 17:22:07.749 xcodebuild[20885:13656862]  DVTDeviceOperation: Encountered a build number "" that is incompatible with DVTBuildVersion.
+2026-01-09 17:22:07.763 xcodebuild[20885:13656810] [MT] DVTDeviceOperation: Encountered a build number "" that is incompatible with DVTBuildVersion.
+2026-01-09 17:22:08.334 xcodebuild[20885:13656810] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-01-09 17:23:08.678 xcodebuild[20885:13656810] Writing error result bundle to /var/folders/_0/j1d9n4w11wbf72dnmtz7nzsc0000gn/T/ResultBundle_2026-09-01_17-23-0008.xcresult
+xcodebuild: error: Timed out waiting for all destinations matching the provided destination specifier to become available
+
+
+	Available destinations for the "MetaGlassesApp" scheme:
+		{ platform:iOS, arch:arm64, id:00008150-001625183A80401C, name:iPhone, error:iPhone is not available because the Developer Disk Image is not mounted Development services need to be enabled. Ensure that the device is unlocked. }

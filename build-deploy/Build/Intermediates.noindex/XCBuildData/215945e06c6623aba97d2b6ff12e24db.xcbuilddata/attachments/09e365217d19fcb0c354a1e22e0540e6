@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp-primary.dia",
+    "emit-module-dependencies" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp-primary-emit-module.dia",
+    "pch" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp-primary.swiftdeps"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/MetaGlassesApp.swift" : {
+    "const-values" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp.swiftconstvalues",
+    "dependencies" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp.d",
+    "diagnostics" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp.dia",
+    "index-unit-output-path" : "/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp.o",
+    "llvm-bc" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp.bc",
+    "object" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp.o",
+    "swift-dependencies" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp.swiftdeps",
+    "swiftmodule" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/build-deploy/Build/Intermediates.noindex/MetaGlassesApp.build/Debug-iphoneos/MetaGlassesApp.build/Objects-normal/arm64/MetaGlassesApp~partial.swiftmodule"
+  }
+}

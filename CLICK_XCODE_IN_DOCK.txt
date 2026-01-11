@@ -1,0 +1,64 @@
+==========================================
+  YOU MUST MANUALLY CLICK XCODE
+==========================================
+
+I've tried every automation method, but Terminal windows keep covering Xcode.
+
+Xcode IS running (confirmed), but hidden behind other windows.
+
+
+WHAT YOU MUST DO NOW:
+====================
+
+1. Look at the BOTTOM of your Mac screen (the Dock)
+
+2. Find the XCODE icon:
+   - It's BLUE
+   - Looks like a HAMMER
+   - Should have a dot under it (meaning it's running)
+
+3. CLICK IT ONCE with your mouse
+
+4. Xcode will come to the front!
+
+5. Then follow these steps IN XCODE:
+
+   a) Left sidebar → Click "MetaGlassesApp" (blue icon)
+   b) Main area → Click "Signing & Capabilities" tab
+   c) Check box: "Automatically manage signing"
+   d) Click "Team" → Add your Apple ID
+   e) Top of Xcode → Select "iPhone (26.2)"
+   f) Click ▶️ Play button
+   g) Wait 2-3 minutes
+   h) App installs to iPhone!
+
+
+WHY THIS IS NEEDED:
+==================
+
+Apple security requires signing setup in Xcode GUI.
+Command line cannot create developer credentials.
+This is a ONE-TIME 2-minute setup.
+
+
+YOUR APP IS READY:
+==================
+
+✅ 110+ features implemented
+✅ All code written
+✅ Project configured
+✅ iPhone connected & ready
+✅ Developer Mode enabled
+
+Just need to:
+1. Click Xcode in dock
+2. Set up signing (2 minutes)
+3. Click Play button
+4. Done!
+
+
+==========================================
+
+CLICK THE BLUE HAMMER ICON IN YOUR DOCK NOW!
+
+==========================================

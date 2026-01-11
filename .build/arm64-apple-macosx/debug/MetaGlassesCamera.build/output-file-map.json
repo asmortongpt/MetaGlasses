@@ -1,0 +1,320 @@
+{
+  "": {
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/master.swiftdeps"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIDepthEstimator.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIDepthEstimator.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIDepthEstimator.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIDepthEstimator~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIDepthEstimator.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIDepthEstimator.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIImageEnhancer.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIImageEnhancer.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIImageEnhancer.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIImageEnhancer~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIImageEnhancer.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIImageEnhancer.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIVisionAnalyzer.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIVisionAnalyzer.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIVisionAnalyzer.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIVisionAnalyzer~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIVisionAnalyzer.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIVisionAnalyzer.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/CAGManager.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CAGManager.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CAGManager.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CAGManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CAGManager.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CAGManager.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMIntegration.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMIntegration.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMIntegration.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMIntegration~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMIntegration.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMIntegration.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMOrchestrator.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMOrchestrator.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMOrchestrator.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMOrchestrator~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMOrchestrator.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMOrchestrator.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/MCPClient.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MCPClient.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MCPClient.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MCPClient~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MCPClient.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MCPClient.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/OpenAIService.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/OpenAIService.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/OpenAIService.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/OpenAIService~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/OpenAIService.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/OpenAIService.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGManager.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGManager.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGManager.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGManager.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGManager.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGService.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGService.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGService.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGService~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGService.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGService.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VisionAnalysisService.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VisionAnalysisService.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VisionAnalysisService.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VisionAnalysisService~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VisionAnalysisService.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VisionAnalysisService.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VoiceAssistantService.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VoiceAssistantService.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VoiceAssistantService.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VoiceAssistantService~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VoiceAssistantService.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VoiceAssistantService.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Advanced/DepthMapper.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DepthMapper.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DepthMapper.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DepthMapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DepthMapper.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DepthMapper.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/BluetoothManager.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/BluetoothManager.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/BluetoothManager.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/BluetoothManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/BluetoothManager.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/BluetoothManager.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CameraManager.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraManager.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraManager.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraManager.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraManager.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CaptureViewController.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CaptureViewController.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CaptureViewController.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CaptureViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CaptureViewController.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CaptureViewController.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DATSession.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DATSession.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DATSession.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DATSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DATSession.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DATSession.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCameraManager.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCameraManager.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCameraManager.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCameraManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCameraManager.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCameraManager.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCaptureViewController.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCaptureViewController.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCaptureViewController.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCaptureViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCaptureViewController.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCaptureViewController.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Intelligence/SmartAutomation.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartAutomation.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartAutomation.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartAutomation~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartAutomation.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartAutomation.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/MockDATSession.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MockDATSession.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MockDATSession.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MockDATSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MockDATSession.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MockDATSession.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/RealisticMockImages.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RealisticMockImages.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RealisticMockImages.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RealisticMockImages~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RealisticMockImages.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RealisticMockImages.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Personal/PersonalAI.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PersonalAI.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PersonalAI.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PersonalAI~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PersonalAI.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PersonalAI.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/EnhancedCameraFeatures.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraFeatures.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraFeatures.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraFeatures~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraFeatures.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraFeatures.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/HDRProcessor.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/HDRProcessor.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/HDRProcessor.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/HDRProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/HDRProcessor.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/HDRProcessor.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/RAWCapture.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAWCapture.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAWCapture.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAWCapture~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAWCapture.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAWCapture.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/VideoRecorder.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VideoRecorder.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VideoRecorder.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VideoRecorder~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VideoRecorder.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VideoRecorder.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Production/ProductionAppDelegate.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/SharedTypes.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/EnhancedTestDualCaptureViewController.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedTestDualCaptureViewController.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedTestDualCaptureViewController.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedTestDualCaptureViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedTestDualCaptureViewController.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedTestDualCaptureViewController.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestAppDelegate.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestAppDelegate.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestAppDelegate.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestAppDelegate~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestAppDelegate.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestAppDelegate.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCameraManager.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCameraManager.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCameraManager.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCameraManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCameraManager.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCameraManager.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCaptureViewController.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCaptureViewController.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCaptureViewController.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCaptureViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCaptureViewController.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCaptureViewController.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/UltimateEnhancedViewController.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/UltimateEnhancedViewController.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/UltimateEnhancedViewController.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/UltimateEnhancedViewController~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/UltimateEnhancedViewController.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/UltimateEnhancedViewController.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/CameraViewWrapper.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraViewWrapper.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraViewWrapper.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraViewWrapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraViewWrapper.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraViewWrapper.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/EnhancedAIAssistantView.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/GalleryView.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/ModernHomeView.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ModernHomeView.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ModernHomeView.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ModernHomeView~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ModernHomeView.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ModernHomeView.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/PhotoDetailView.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PhotoDetailView.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PhotoDetailView.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PhotoDetailView~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PhotoDetailView.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PhotoDetailView.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/SettingsView.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/VIPManagerView.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VIPManagerView.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VIPManagerView.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VIPManagerView~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VIPManagerView.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VIPManagerView.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/AdvancedOCR.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AdvancedOCR.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AdvancedOCR.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AdvancedOCR~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AdvancedOCR.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AdvancedOCR.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/GestureRecognizer.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GestureRecognizer.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GestureRecognizer.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GestureRecognizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GestureRecognizer.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GestureRecognizer.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/ObjectDetector.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ObjectDetector.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ObjectDetector.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ObjectDetector~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ObjectDetector.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ObjectDetector.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.dia"
+  }
+}

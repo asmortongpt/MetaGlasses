@@ -1,0 +1,113 @@
+==========================================
+  🔓 TRUST DEVELOPER - ALL POSSIBLE PATHS
+==========================================
+
+iOS has different menu names depending on version.
+Try these paths IN ORDER until you find one that works:
+
+
+PATH 1 (iOS 15-17):
+===================
+Settings → General → VPN & Device Management
+   → Developer App section
+   → Apple Development: asmorton@gmail.com
+   → Trust
+
+
+PATH 2 (Older iOS):
+===================
+Settings → General → Profiles & Device Management
+   → Developer App section
+   → Apple Development: asmorton@gmail.com
+   → Trust
+
+
+PATH 3 (Older iOS):
+===================
+Settings → General → Device Management
+   → Developer App section
+   → Apple Development: asmorton@gmail.com
+   → Trust
+
+
+PATH 4 (Older iOS):
+===================
+Settings → General → Profiles
+   → Developer App section
+   → Apple Development: asmorton@gmail.com
+   → Trust
+
+
+ALTERNATIVE METHOD:
+===================
+
+If NONE of those paths exist, the certificate might not be installed yet.
+
+Try this:
+
+1. Delete the app from your iPhone (long press → Remove App)
+
+2. On your Mac, run this command to open Xcode:
+   open -a Xcode MetaGlassesApp.xcodeproj
+
+3. In Xcode:
+   - Click your iPhone at the top (next to Play button)
+   - Select your iPhone from the dropdown
+   - Click the ▶️ Play button
+
+4. Xcode will install and you should see the trust dialog
+
+
+STILL NOT WORKING?
+==================
+
+Try searching in Settings:
+
+1. Open Settings app
+2. Tap the Search bar at the top
+3. Type: "trust"
+4. Look for results mentioning "profiles" or "developer"
+5. Tap the matching result
+
+
+OR try searching for:
+- "profiles"
+- "device management"
+- "developer"
+
+
+WHAT TO LOOK FOR:
+=================
+
+You're looking for a menu that shows:
+   "Apple Development: asmorton@gmail.com"
+
+Under a section labeled:
+   "Developer App" or "Enterprise App"
+
+With a button that says:
+   "Trust" or "Verify"
+
+
+NUCLEAR OPTION:
+===============
+
+If you absolutely cannot find it:
+
+1. Settings → General → Reset → Reset All Settings
+   (This won't delete data, just settings)
+
+2. Try installing the app again from Xcode
+
+
+==========================================
+
+TELL ME YOUR iOS VERSION:
+==========================
+
+What iPhone model and iOS version do you have?
+This will help me give you the EXACT path.
+
+Check: Settings → General → About → iOS Version
+
+==========================================

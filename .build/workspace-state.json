@@ -1,0 +1,83 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "meta-wearables-dat-ios",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/facebook/meta-wearables-dat-ios.git",
+          "name" : "MetaWearablesDAT"
+        },
+        "path" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/checkouts/meta-wearables-dat-ios/MWDATMockDevice.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "MWDATMockDevice"
+      },
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "meta-wearables-dat-ios",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/facebook/meta-wearables-dat-ios.git",
+          "name" : "MetaWearablesDAT"
+        },
+        "path" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/checkouts/meta-wearables-dat-ios/MWDATCore.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "MWDATCore"
+      },
+      {
+        "kind" : {
+          "xcframework" : {
+
+          }
+        },
+        "packageRef" : {
+          "identity" : "meta-wearables-dat-ios",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/facebook/meta-wearables-dat-ios.git",
+          "name" : "MetaWearablesDAT"
+        },
+        "path" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/checkouts/meta-wearables-dat-ios/MWDATCamera.xcframework",
+        "source" : {
+          "type" : "local"
+        },
+        "targetName" : "MWDATCamera"
+      }
+    ],
+    "dependencies" : [
+      {
+        "basedOn" : null,
+        "packageRef" : {
+          "identity" : "meta-wearables-dat-ios",
+          "kind" : "remoteSourceControl",
+          "location" : "https://github.com/facebook/meta-wearables-dat-ios.git",
+          "name" : "MetaWearablesDAT"
+        },
+        "state" : {
+          "checkoutState" : {
+            "revision" : "ad88298bc66dfb8a255983c55305a76fe7def2d1",
+            "version" : "0.3.0"
+          },
+          "name" : "sourceControlCheckout"
+        },
+        "subpath" : "meta-wearables-dat-ios"
+      }
+    ],
+    "prebuilts" : [
+
+    ]
+  },
+  "version" : 7
+}

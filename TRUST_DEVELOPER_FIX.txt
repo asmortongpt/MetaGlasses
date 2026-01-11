@@ -1,0 +1,84 @@
+==========================================
+  🔓 FIX "UNTRUSTED DEVELOPER" ERROR
+==========================================
+
+This is a normal iOS security feature!
+Here's how to trust yourself as a developer:
+
+
+EXACT STEPS ON YOUR IPHONE:
+============================
+
+1. Open SETTINGS app on your iPhone
+
+2. Scroll down and tap "General"
+
+3. Scroll down and tap "VPN & Device Management"
+   (Sometimes called "Device Management" or "Profiles & Device Management")
+
+4. Under "DEVELOPER APP" section, you'll see:
+   "Apple Development: asmorton@gmail.com"
+
+5. Tap on "Apple Development: asmorton@gmail.com"
+
+6. You'll see a screen with app details
+
+7. Tap the blue "Trust" button
+   (It will say "Trust 'Apple Development: asmorton@gmail.com'")
+
+8. A popup appears: "Trust this developer?"
+   Tap "Trust"
+
+9. ✅ Done! Go back to home screen
+
+10. Tap the MetaGlasses app icon again
+
+11. App will now open!
+
+
+IF YOU DON'T SEE "VPN & DEVICE MANAGEMENT":
+===========================================
+
+Try this path instead:
+   Settings → General → Profiles
+   OR
+   Settings → General → Profiles & Device Management
+
+The menu name varies slightly by iOS version.
+
+
+VISUAL GUIDE:
+=============
+
+Settings
+  └─ General
+      └─ VPN & Device Management
+          └─ Apple Development: asmorton@gmail.com
+              └─ [Trust] button ← TAP THIS
+
+
+WHAT THIS DOES:
+===============
+
+iOS requires you to explicitly trust apps from developers
+who aren't in the App Store. Since you're installing your
+own app for development, you need to trust yourself!
+
+This is a ONE-TIME setup. Once trusted, all your apps
+will work without this step.
+
+
+AFTER TRUSTING:
+===============
+
+1. Return to home screen
+2. Tap MetaGlasses app
+3. App opens successfully!
+4. Grant permissions when asked
+
+
+==========================================
+
+DO THIS ON YOUR IPHONE NOW!
+
+==========================================

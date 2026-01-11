@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>A5AD9BE9-C2B9-4398-B111-CC7CE72A38F1</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A5AD9BE9-C2B9-4398-B111-CC7CE72A38F1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>1</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>2</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MetaGlassesApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MetaGlassesApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MetaGlassesApp with scheme MetaGlassesApp</string>
+			<key>timeStartedRecording</key>
+			<real>789764201.20572901</real>
+			<key>timeStoppedRecording</key>
+			<real>789764216.05423701</real>
+			<key>title</key>
+			<string>Building project MetaGlassesApp with scheme MetaGlassesApp</string>
+			<key>uniqueIdentifier</key>
+			<string>A5AD9BE9-C2B9-4398-B111-CC7CE72A38F1</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

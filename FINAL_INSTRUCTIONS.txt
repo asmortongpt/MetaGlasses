@@ -1,0 +1,54 @@
+==========================================
+  FINAL STEP - MUST BE DONE IN XCODE GUI
+==========================================
+
+The command line CANNOT create a development team.
+Apple requires this to be done in Xcode's interface.
+
+This is a ONE-TIME setup that takes 2 minutes.
+
+
+WHAT TO DO RIGHT NOW:
+====================
+
+1. Look at your Mac screen
+2. Find the blue Xcode icon in your dock (bottom of screen)
+3. Click it ONCE
+
+4. When Xcode opens:
+   - Left sidebar → Click "MetaGlassesApp" (blue icon at top)
+   - Main panel → Click "Signing & Capabilities" tab
+   - Check the box: "Automatically manage signing"
+   - Click "Team" dropdown → Add your Apple ID
+   - Xcode creates a free developer certificate
+
+5. Top of Xcode → Click device selector → Choose "iPhone (26.2)"
+
+6. Click ▶️ Play button
+
+7. Wait 2-3 minutes
+
+8. App installs to iPhone automatically!
+
+
+WHY THIS IS REQUIRED:
+====================
+
+Apple's security requires:
+- Development team (your Apple ID)
+- Code signing certificate
+- Provisioning profile
+
+The command line can BUILD code, but it cannot CREATE these credentials.
+Only Xcode's GUI can create them for the first time.
+
+After this ONE-TIME setup, command line works fine!
+
+
+THAT'S IT!
+==========
+
+Just those 8 steps in Xcode GUI.
+Then you'll have your 110+ feature app running!
+
+==========================================

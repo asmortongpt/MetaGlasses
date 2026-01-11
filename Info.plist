@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleExecutable</key>
+	<string>MetaGlassesApp</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.metaglasses.testapp</string>
+	<key>CFBundleName</key>
+	<string>MetaGlasses 3D Camera</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>NSCameraUsageDescription</key>
+	<string>MetaGlasses needs camera access to capture 3D photos and videos with your Meta Ray-Ban glasses.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>MetaGlasses needs microphone access to record audio with your videos and enable voice AI features.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>MetaGlasses needs Bluetooth to connect to your Meta Ray-Ban smart glasses.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>MetaGlasses needs Bluetooth to communicate with your Meta Ray-Ban smart glasses.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>MetaGlasses uses your location to tag photos and videos with GPS coordinates.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>MetaGlasses uses speech recognition for voice AI commands and transcription.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>MetaGlasses needs access to save your captured photos and videos.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>MetaGlasses needs permission to save your 3D photos and videos to your library.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>MetaGlasses uses local network for AI processing and cloud sync features.</string>
+</dict>
+</plist>

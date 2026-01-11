@@ -1,0 +1,3 @@
+module MetaGlassesCamera {
+    header "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/include/MetaGlassesCamera-Swift.h"
+}

@@ -1,0 +1,127 @@
+==========================================
+  📱 INSTALL APP TO YOUR IPHONE NOW
+==========================================
+
+Everything is configured! Follow these exact steps in Xcode:
+
+
+STEP 1: SELECT YOUR IPHONE
+===========================
+
+Look at the TOP LEFT of Xcode, you'll see:
+   [▶️ Play button] [MetaGlassesApp > Some Device Name]
+
+1. Click where it says the device name
+2. A dropdown menu appears
+3. Look for your iPhone - it should show:
+   "iPhone (26.2)"
+   OR
+   "Andrew's iPhone"
+
+4. Click on your physical iPhone (NOT Simulator)
+
+
+STEP 2: CLICK PLAY BUTTON
+==========================
+
+1. Click the big ▶️ PLAY button at the top left
+   (It's a triangle, says "Run" when you hover)
+
+2. Xcode will start building:
+   - You'll see "Building..." at the top
+   - Progress bar appears
+   - Takes 2-3 minutes
+
+
+STEP 3: WAIT FOR BUILD
+=======================
+
+Watch the top of Xcode window:
+   "Building MetaGlassesApp" → "Running MetaGlassesApp"
+
+If you see any errors, check:
+   - Is your iPhone unlocked?
+   - Is USB cable connected?
+   - Did you trust this computer on iPhone?
+
+
+STEP 4: APP INSTALLS
+=====================
+
+When build succeeds:
+   ✅ App appears on your iPhone home screen
+   ✅ Icon shows "MetaGlasses 3D Camera"
+   ✅ Xcode shows "Running on iPhone"
+
+
+STEP 5: FIRST TIME YOU OPEN
+============================
+
+1. Tap the app icon on your iPhone
+
+2. You may see: "Untrusted Developer"
+   - Go to: Settings > General > VPN & Device Management
+   - Tap your Apple ID
+   - Tap "Trust"
+   - Go back and open app again
+
+3. App will ask for permissions:
+   ✅ Camera - TAP "Allow"
+   ✅ Microphone - TAP "Allow"
+   ✅ Bluetooth - TAP "Allow"
+   ✅ Location - TAP "Allow While Using"
+   ✅ Speech Recognition - TAP "OK"
+   ✅ Photo Library - TAP "Allow"
+
+
+STEP 6: CONNECT YOUR GLASSES
+=============================
+
+1. Turn ON your Meta Ray-Ban glasses
+2. App will automatically search for them
+3. When found, tap "Connect"
+4. Follow pairing instructions
+5. Done!
+
+
+TROUBLESHOOTING
+===============
+
+❌ "Signing for MetaGlassesApp requires a development team"
+   → Go to project settings > Signing & Capabilities
+   → Check "Automatically manage signing"
+   → Add your Apple ID
+
+❌ "iPhone is not available"
+   → Unlock your iPhone
+   → Trust this computer (popup on iPhone)
+
+❌ Build failed
+   → Check error message at top of Xcode
+   → Make sure iPhone is connected via USB
+
+❌ App crashes on launch
+   → Check you granted all permissions
+   → Try deleting app and reinstalling
+
+
+YOUR APP HAS 110+ FEATURES
+===========================
+
+✅ 3D camera with dual lenses
+✅ AI scene understanding
+✅ PersonalAI agent with memory
+✅ Multi-LLM support (Claude, GPT-4, Gemini)
+✅ Professional video editing
+✅ Real-time effects & filters
+✅ Voice AI commands
+✅ Location tracking
+✅ Cloud sync
+✅ And 100+ more!
+
+
+==========================================
+
+CLICK THE ▶️ PLAY BUTTON IN XCODE NOW!
+
+==========================================

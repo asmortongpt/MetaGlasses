@@ -1,0 +1,5 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild  -scheme MetaGlassesApp  -destination generic/platform=iOS  -configuration Debug  -derivedDataPath DerivedData  -allowProvisioningUpdates  build
+
+2026-01-09 18:04:39.598 xcodebuild[27127:13736430] Writing error result bundle to /var/folders/_0/j1d9n4w11wbf72dnmtz7nzsc0000gn/T/ResultBundle_2026-09-01_18-04-0039.xcresult
+xcodebuild: error: Unknown build action ''.

@@ -1,0 +1,56 @@
+==========================================
+  FIX THE SIGNING ERROR - 5 CLICKS
+==========================================
+
+You're seeing:
+"Signing for MetaGlassesApp requires a development team"
+
+This is GOOD! You're in Xcode and we just need to add your Apple ID.
+
+
+DO THIS RIGHT NOW IN XCODE:
+==========================
+
+1. In the LEFT SIDEBAR of Xcode:
+   - Click the BLUE icon at the very top
+   - It says "MetaGlassesApp"
+
+2. In the MAIN PANEL (center/right area):
+   - You'll see tabs: General, Signing & Capabilities, etc.
+   - Click "Signing & Capabilities"
+
+3. You'll see:
+   - [ ] Automatically manage signing (UNCHECK checkbox)
+   - Team: None (dropdown)
+
+4. CHECK the "Automatically manage signing" box
+
+5. Click the "Team" dropdown:
+   - If you see your name/Apple ID → SELECT IT
+   - If you see "Add Account..." → CLICK IT
+     - Sign in with your Apple ID
+     - Xcode creates free developer certificate
+     - Then select your name as Team
+
+6. Xcode will show:
+   ✅ Signing Certificate: Apple Development
+   ✅ Provisioning Profile: Xcode Managed Profile
+
+7. At the TOP of Xcode window:
+   - Click where it shows device name
+   - Select "iPhone (26.2)"
+
+8. Click the ▶️ PLAY button (big triangle at top left)
+
+9. Wait 2-3 minutes - Xcode builds and installs!
+
+10. DONE! App appears on your iPhone!
+
+
+THAT'S IT!
+==========
+
+Those 10 steps take 2 minutes.
+Then your app is ready to use!
+
+==========================================

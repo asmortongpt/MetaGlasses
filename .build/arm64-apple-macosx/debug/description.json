@@ -1,0 +1,895 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MetaGlassesCamera-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/sources",
+      "importPath" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIDepthEstimator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIImageEnhancer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIVisionAnalyzer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/CAGManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMIntegration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMOrchestrator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/MCPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/OpenAIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VisionAnalysisService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VoiceAssistantService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Advanced/DepthMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/BluetoothManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CameraManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CaptureViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DATSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCameraManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCaptureViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Intelligence/SmartAutomation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/MockDATSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/RealisticMockImages.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Personal/PersonalAI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/EnhancedCameraFeatures.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/HDRProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/RAWCapture.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/VideoRecorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Production/ProductionAppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/SharedTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/EnhancedTestDualCaptureViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestAppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCameraManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCaptureViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/UltimateEnhancedViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/CameraViewWrapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/EnhancedAIAssistantView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/GalleryView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/ModernHomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/PhotoDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/VIPManagerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/AdvancedOCR.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/GestureRecognizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/ObjectDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MetaGlassesCamera",
+      "moduleOutputPath" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/Modules/MetaGlassesCamera.swiftmodule",
+      "objects" : [
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIDepthEstimator.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIImageEnhancer.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIVisionAnalyzer.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CAGManager.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMIntegration.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMOrchestrator.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MCPClient.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/OpenAIService.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGManager.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGService.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VisionAnalysisService.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VoiceAssistantService.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DepthMapper.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/BluetoothManager.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraManager.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CaptureViewController.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DATSession.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCameraManager.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCaptureViewController.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartAutomation.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MockDATSession.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RealisticMockImages.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PersonalAI.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraFeatures.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/HDRProcessor.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAWCapture.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VideoRecorder.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedTestDualCaptureViewController.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestAppDelegate.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCameraManager.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCaptureViewController.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/UltimateEnhancedViewController.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraViewWrapper.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ModernHomeView.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PhotoDetailView.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VIPManagerView.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AdvancedOCR.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GestureRecognizer.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ObjectDetector.swift.o",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/include/MetaGlassesCamera-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "metaglasses"
+      ],
+      "outputFileMapPath" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIDepthEstimator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIImageEnhancer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AIVisionAnalyzer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CAGManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMIntegration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/LLMOrchestrator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MCPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/OpenAIService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAGService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VisionAnalysisService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VoiceAssistantService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DepthMapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/BluetoothManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CaptureViewController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DATSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCameraManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/DualCaptureViewController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartAutomation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/MockDATSession.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RealisticMockImages.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PersonalAI.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraFeatures.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/HDRProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/RAWCapture.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VideoRecorder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedTestDualCaptureViewController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestAppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCameraManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/TestDualCaptureViewController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/UltimateEnhancedViewController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/CameraViewWrapper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ModernHomeView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/PhotoDetailView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VIPManagerView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/AdvancedOCR.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GestureRecognizer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ObjectDetector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SceneSegmentation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/Modules/MetaGlassesCamera.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIDepthEstimator.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIImageEnhancer.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIVisionAnalyzer.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/CAGManager.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMIntegration.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMOrchestrator.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/MCPClient.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/OpenAIService.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGManager.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGService.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VisionAnalysisService.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VoiceAssistantService.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Advanced/DepthMapper.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/BluetoothManager.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CameraManager.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CaptureViewController.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DATSession.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCameraManager.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCaptureViewController.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Intelligence/SmartAutomation.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/MockDATSession.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/RealisticMockImages.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Personal/PersonalAI.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/EnhancedCameraFeatures.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/HDRProcessor.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/RAWCapture.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/VideoRecorder.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Production/ProductionAppDelegate.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/SharedTypes.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/EnhancedTestDualCaptureViewController.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestAppDelegate.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCameraManager.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCaptureViewController.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/UltimateEnhancedViewController.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/CameraViewWrapper.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/EnhancedAIAssistantView.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/GalleryView.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/ModernHomeView.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/PhotoDetailView.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/SettingsView.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/VIPManagerView.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/AdvancedOCR.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/GestureRecognizer.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/ObjectDetector.swift",
+        "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift"
+      ],
+      "tempsPath" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MetaGlassesCamera" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MetaGlassesCamera",
+      "-package-name",
+      "metaglasses",
+      "-c",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIDepthEstimator.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIImageEnhancer.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIVisionAnalyzer.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/CAGManager.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMIntegration.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMOrchestrator.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/MCPClient.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/OpenAIService.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGManager.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGService.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VisionAnalysisService.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VoiceAssistantService.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Advanced/DepthMapper.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/BluetoothManager.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CameraManager.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CaptureViewController.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DATSession.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCameraManager.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCaptureViewController.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Intelligence/SmartAutomation.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/MockDATSession.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/RealisticMockImages.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Personal/PersonalAI.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/EnhancedCameraFeatures.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/HDRProcessor.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/RAWCapture.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/VideoRecorder.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Production/ProductionAppDelegate.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/SharedTypes.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/EnhancedTestDualCaptureViewController.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestAppDelegate.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCameraManager.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCaptureViewController.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/UltimateEnhancedViewController.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/CameraViewWrapper.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/EnhancedAIAssistantView.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/GalleryView.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/ModernHomeView.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/PhotoDetailView.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/SettingsView.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/VIPManagerView.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/AdvancedOCR.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/GestureRecognizer.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/ObjectDetector.swift",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift",
+      "-I",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/include/MetaGlassesCamera-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "metaglasses",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MetaGlassesCamera" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIDepthEstimator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIImageEnhancer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/AIVisionAnalyzer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/CAGManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMIntegration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/LLMOrchestrator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/MCPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/OpenAIService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/RAGService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VisionAnalysisService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/AI/VoiceAssistantService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Advanced/DepthMapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/BluetoothManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CameraManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/CaptureViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DATSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCameraManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/DualCaptureViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Intelligence/SmartAutomation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/MockDATSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Mock/RealisticMockImages.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Personal/PersonalAI.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/EnhancedCameraFeatures.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/HDRProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/RAWCapture.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/VideoRecorder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Production/ProductionAppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/SharedTypes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/EnhancedTestDualCaptureViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestAppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCameraManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestDualCaptureViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/UltimateEnhancedViewController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/CameraViewWrapper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/EnhancedAIAssistantView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/GalleryView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/ModernHomeView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/PhotoDetailView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/VIPManagerView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/AdvancedOCR.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/GestureRecognizer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/ObjectDetector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/SceneSegmentation.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/sources"
+    },
+    "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
