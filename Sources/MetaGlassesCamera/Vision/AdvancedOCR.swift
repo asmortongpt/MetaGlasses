@@ -1,6 +1,7 @@
 import UIKit
 import Vision
 import NaturalLanguage
+import CoreImage
 
 /// Advanced Multi-Language OCR with 100+ language support
 /// Extract text, translate, and understand context
@@ -13,6 +14,10 @@ public class AdvancedOCR {
     // MARK: - Properties
     private let queue = DispatchQueue(label: "com.metaglasses.ocr", qos: .userInitiated)
     private let languageRecognizer = NLLanguageRecognizer()
+    private lazy var openAIService: OpenAIService = {
+        return OpenAIService()
+    }()
+    private let ciContext = CIContext(options: [.useSoftwareRenderer: false])
 
     // Supported languages for OCR
     private let supportedLanguages: [String] = [
@@ -179,8 +184,8 @@ public class AdvancedOCR {
     public func recognizeAndTranslate(in image: UIImage, to targetLanguage: String = "en") async throws -> TranslationResult {
         let ocrResult = try await recognizeText(in: image)
 
-        // In production, integrate with translation API (Google Translate, DeepL, etc.)
-        // For now, return placeholder
+        // Translation requires external API integration (Google Translate, DeepL, etc.)
+        // Falls back to basic implementation until API keys are configured
         let translatedText = await translateText(ocrResult.fullText, to: targetLanguage)
 
         return TranslationResult(
@@ -232,12 +237,99 @@ public class AdvancedOCR {
         return language.rawValue
     }
 
-    // MARK: - Translation (Placeholder)
+    // MARK: - Translation
 
-    private func translateText(_ text: String, to language: String) async -> String {
-        // In production, call translation API
-        // For now, return original text with note
-        return "[Translation to \(language)]: \(text)"
+    /// Translate text using OpenAI GPT-4 for high-quality, context-aware translation
+    private func translateText(_ text: String, to targetLanguage: String) async -> String {
+        // Handle empty text
+        guard !text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
+            return text
+        }
+
+        // Get full language name from code
+        let languageName = getLanguageName(from: targetLanguage)
+
+        do {
+            // Use OpenAI for high-quality translation
+            let translationPrompt = """
+            Translate the following text to \(languageName). Maintain the original meaning, tone, and formatting.
+            Only return the translated text, nothing else:
+
+            \(text)
+            """
+
+            let messages: [[String: String]] = [
+                ["role": "system", "content": "You are a professional translator. Translate accurately while preserving meaning, tone, and context."],
+                ["role": "user", "content": translationPrompt]
+            ]
+
+            let translatedText = try await openAIService.chatCompletion(
+                messages: messages,
+                model: .gpt4Turbo,
+                temperature: 0.3,
+                maxTokens: 2000
+            )
+
+            print("✅ Translation completed: \(text.prefix(50))... -> \(translatedText.prefix(50))...")
+            return translatedText.trimmingCharacters(in: .whitespacesAndNewlines)
+
+        } catch {
+            print("⚠️ Translation failed: \(error.localizedDescription)")
+            print("   Falling back to NaturalLanguage framework")
+
+            // Fallback to basic language detection with notice
+            return translateWithNaturalLanguage(text, to: targetLanguage)
+        }
+    }
+
+    /// Fallback translation using NaturalLanguage framework (basic detection only)
+    private func translateWithNaturalLanguage(_ text: String, to targetLanguage: String) -> String {
+        // NaturalLanguage can only detect language, not translate
+        // Return text with language detection metadata
+        languageRecognizer.processString(text)
+
+        if let detectedLanguage = languageRecognizer.dominantLanguage {
+            let confidence = languageRecognizer.languageHypotheses(withMaximum: 1)[detectedLanguage] ?? 0.0
+
+            return """
+            [Translation unavailable - detected \(detectedLanguage.rawValue) with \(String(format: "%.1f%%", confidence * 100)) confidence]
+            Original text: \(text)
+            """
+        }
+
+        return "[Translation unavailable] \(text)"
+    }
+
+    /// Convert language code to full name
+    private func getLanguageName(from code: String) -> String {
+        let languageMap: [String: String] = [
+            "en": "English",
+            "es": "Spanish",
+            "fr": "French",
+            "de": "German",
+            "it": "Italian",
+            "pt": "Portuguese",
+            "ja": "Japanese",
+            "ko": "Korean",
+            "zh": "Chinese",
+            "zh-Hans": "Simplified Chinese",
+            "zh-Hant": "Traditional Chinese",
+            "ru": "Russian",
+            "ar": "Arabic",
+            "he": "Hebrew",
+            "hi": "Hindi",
+            "th": "Thai",
+            "vi": "Vietnamese",
+            "tr": "Turkish",
+            "pl": "Polish",
+            "nl": "Dutch",
+            "sv": "Swedish",
+            "da": "Danish",
+            "no": "Norwegian",
+            "fi": "Finnish"
+        ]
+
+        return languageMap[code] ?? code.capitalized
     }
 
     // MARK: - Document Processing
@@ -263,11 +355,76 @@ public class AdvancedOCR {
         }
     }
 
+    /// Dewarp document using Core Image perspective correction
     private func dewarpDocument(cgImage: CGImage, rectangle: VNRectangleObservation) throws -> CGImage {
-        // Create perspective transform to dewarp document
-        // In production, implement proper perspective correction
-        // For now, return original
-        return cgImage
+        let ciImage = CIImage(cgImage: cgImage)
+        let imageSize = ciImage.extent.size
+
+        // Convert normalized coordinates to image coordinates
+        let topLeft = convertPoint(rectangle.topLeft, imageSize: imageSize)
+        let topRight = convertPoint(rectangle.topRight, imageSize: imageSize)
+        let bottomLeft = convertPoint(rectangle.bottomLeft, imageSize: imageSize)
+        let bottomRight = convertPoint(rectangle.bottomRight, imageSize: imageSize)
+
+        // Calculate target rectangle dimensions (use maximum width and height)
+        let width = max(
+            distance(from: topLeft, to: topRight),
+            distance(from: bottomLeft, to: bottomRight)
+        )
+        let height = max(
+            distance(from: topLeft, to: bottomLeft),
+            distance(from: topRight, to: bottomRight)
+        )
+
+        // Create perspective correction filter
+        guard let perspectiveFilter = CIFilter(name: "CIPerspectiveCorrection") else {
+            throw OCRError.dewarpFailed
+        }
+
+        perspectiveFilter.setValue(ciImage, forKey: kCIInputImageKey)
+        perspectiveFilter.setValue(CIVector(cgPoint: topLeft), forKey: "inputTopLeft")
+        perspectiveFilter.setValue(CIVector(cgPoint: topRight), forKey: "inputTopRight")
+        perspectiveFilter.setValue(CIVector(cgPoint: bottomLeft), forKey: "inputBottomLeft")
+        perspectiveFilter.setValue(CIVector(cgPoint: bottomRight), forKey: "inputBottomRight")
+
+        guard let outputImage = perspectiveFilter.outputImage else {
+            throw OCRError.dewarpFailed
+        }
+
+        // Crop to target dimensions
+        let targetRect = CGRect(x: 0, y: 0, width: width, height: height)
+        let croppedImage = outputImage.cropped(to: targetRect)
+
+        // Apply sharpening for better OCR results
+        guard let sharpenFilter = CIFilter(name: "CISharpenLuminance") else {
+            throw OCRError.dewarpFailed
+        }
+
+        sharpenFilter.setValue(croppedImage, forKey: kCIInputImageKey)
+        sharpenFilter.setValue(0.4, forKey: kCIInputSharpnessKey)
+
+        guard let sharpenedImage = sharpenFilter.outputImage,
+              let dewarpedCGImage = ciContext.createCGImage(sharpenedImage, from: sharpenedImage.extent) else {
+            throw OCRError.dewarpFailed
+        }
+
+        print("✅ Document dewarped: \(Int(imageSize.width))x\(Int(imageSize.height)) -> \(Int(width))x\(Int(height))")
+        return dewarpedCGImage
+    }
+
+    /// Convert Vision normalized coordinates to image coordinates
+    private func convertPoint(_ point: CGPoint, imageSize: CGSize) -> CGPoint {
+        return CGPoint(
+            x: point.x * imageSize.width,
+            y: (1 - point.y) * imageSize.height // Vision uses bottom-left origin
+        )
+    }
+
+    /// Calculate distance between two points
+    private func distance(from point1: CGPoint, to point2: CGPoint) -> CGFloat {
+        let dx = point2.x - point1.x
+        let dy = point2.y - point1.y
+        return sqrt(dx * dx + dy * dy)
     }
 
     private func convertRect(_ rect: CGRect, in cgImage: CGImage) -> CGRect {
@@ -330,6 +487,7 @@ public enum OCRError: LocalizedError {
     case recognitionFailed
     case noDocumentDetected
     case translationFailed
+    case dewarpFailed
 
     public var errorDescription: String? {
         switch self {
@@ -338,6 +496,7 @@ public enum OCRError: LocalizedError {
         case .recognitionFailed: return "Text recognition failed"
         case .noDocumentDetected: return "No document detected in image"
         case .translationFailed: return "Translation failed"
+        case .dewarpFailed: return "Document perspective correction failed"
         }
     }
 }
