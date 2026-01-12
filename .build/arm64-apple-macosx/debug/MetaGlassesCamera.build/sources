@@ -26,6 +26,8 @@
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/RAWCapture.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Pro/VideoRecorder.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Production/ProductionAppDelegate.swift
+/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Services/EnhancedPhotoMonitor.swift
+/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Services/WeatherService.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/SharedTypes.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/EnhancedTestDualCaptureViewController.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/TestAppDelegate.swift
@@ -34,10 +36,12 @@
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Testing/UltimateEnhancedViewController.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/CameraViewWrapper.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/EnhancedAIAssistantView.swift
+/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/EnhancedCameraUI.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/GalleryView.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/ModernHomeView.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/PhotoDetailView.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/SettingsView.swift
+/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/SmartGalleryView.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/VIPManagerView.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/AdvancedOCR.swift
 /Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Vision/GestureRecognizer.swift

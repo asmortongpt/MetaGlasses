@@ -198,6 +198,20 @@
     "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate.swiftdeps",
     "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/ProductionAppDelegate.dia"
   },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Services/EnhancedPhotoMonitor.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedPhotoMonitor.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedPhotoMonitor.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedPhotoMonitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedPhotoMonitor.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedPhotoMonitor.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/Services/WeatherService.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/WeatherService.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/WeatherService.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/WeatherService~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/WeatherService.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/WeatherService.dia"
+  },
   "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/SharedTypes.swift": {
     "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes.d",
     "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SharedTypes.swift.o",
@@ -254,6 +268,13 @@
     "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView.swiftdeps",
     "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedAIAssistantView.dia"
   },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/EnhancedCameraUI.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraUI.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraUI.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraUI~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraUI.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/EnhancedCameraUI.dia"
+  },
   "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/GalleryView.swift": {
     "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView.d",
     "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/GalleryView.swift.o",
@@ -281,6 +302,13 @@
     "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView~partial.swiftmodule",
     "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView.swiftdeps",
     "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SettingsView.dia"
+  },
+  "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/SmartGalleryView.swift": {
+    "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartGalleryView.d",
+    "object": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartGalleryView.swift.o",
+    "swiftmodule": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartGalleryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartGalleryView.swiftdeps",
+    "diagnostics": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/SmartGalleryView.dia"
   },
   "/Users/andrewmorton/Documents/GitHub/MetaGlasses/Sources/MetaGlassesCamera/UI/VIPManagerView.swift": {
     "dependencies": "/Users/andrewmorton/Documents/GitHub/MetaGlasses/.build/arm64-apple-macosx/debug/MetaGlassesCamera.build/VIPManagerView.d",
