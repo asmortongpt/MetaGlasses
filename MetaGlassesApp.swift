@@ -1263,7 +1263,7 @@ struct SettingsView: View {
 struct MetaGlassesApp: App {
     var body: some Scene {
         WindowGroup {
-            SplashScreenView()
+            MetaGlassesRealView()
                 .onAppear {
                     // Performance tracking
                     PerformanceOptimizer.shared.recordAppLaunch()

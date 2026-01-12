@@ -335,7 +335,7 @@ enum LLMError: LocalizedError {
     }
 }
 
-// MARK: - Anthropic Service Stub
+// MARK: - Anthropic Service (Production)
 class AnthropicService {
     private let apiKey: String
     private let baseURL = "https://api.anthropic.com/v1"
@@ -344,30 +344,180 @@ class AnthropicService {
         self.apiKey = apiKey
     }
 
-    func chat(messages: [[String: String]], model: String = "claude-3-sonnet-20240229") async throws -> String {
-        // Implement Anthropic API call
-        // For now, throw not implemented
-        throw NSError(domain: "AnthropicService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented yet"])
+    func chat(messages: [[String: String]], model: String = "claude-3-5-sonnet-20241022") async throws -> String {
+        // Convert messages format
+        var anthropicMessages: [[String: Any]] = []
+        var systemMessage: String? = nil
+
+        for message in messages {
+            if let role = message["role"], let content = message["content"] {
+                if role == "system" {
+                    systemMessage = content
+                } else {
+                    anthropicMessages.append([
+                        "role": role == "assistant" ? "assistant" : "user",
+                        "content": content
+                    ])
+                }
+            }
+        }
+
+        // Build request
+        var request = URLRequest(url: URL(string: "\(baseURL)/messages")!)
+        request.httpMethod = "POST"
+        request.setValue(apiKey, forHTTPHeaderField: "x-api-key")
+        request.setValue("2023-06-01", forHTTPHeaderField: "anthropic-version")
+        request.setValue("application/json", forHTTPHeaderField: "content-type")
+
+        var payload: [String: Any] = [
+            "model": model,
+            "messages": anthropicMessages,
+            "max_tokens": 1024
+        ]
+
+        if let system = systemMessage {
+            payload["system"] = system
+        }
+
+        request.httpBody = try JSONSerialization.data(withJSONObject: payload)
+
+        // Make request
+        let (data, response) = try await URLSession.shared.data(for: request)
+
+        guard let httpResponse = response as? HTTPURLResponse else {
+            throw NSError(domain: "AnthropicService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid response"])
+        }
+
+        guard httpResponse.statusCode == 200 else {
+            let errorMessage = String(data: data, encoding: .utf8) ?? "Unknown error"
+            throw NSError(domain: "AnthropicService", code: httpResponse.statusCode, userInfo: [NSLocalizedDescriptionKey: "API Error: \(errorMessage)"])
+        }
+
+        // Parse response
+        guard let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let content = json["content"] as? [[String: Any]],
+              let firstContent = content.first,
+              let text = firstContent["text"] as? String else {
+            throw NSError(domain: "AnthropicService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Failed to parse response"])
+        }
+
+        return text
     }
 }
 
-// MARK: - Gemini Service Stub
+// MARK: - Gemini Service (Production)
 class GeminiService {
     private let apiKey: String
-    private let baseURL = "https://generativelanguage.googleapis.com/v1"
+    private let baseURL = "https://generativelanguage.googleapis.com/v1beta"
 
     init(apiKey: String) {
         self.apiKey = apiKey
     }
 
     func chat(messages: [[String: String]]) async throws -> String {
-        // Implement Gemini API call
-        // For now, throw not implemented
-        throw NSError(domain: "GeminiService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented yet"])
+        // Convert messages to Gemini format
+        var contents: [[String: Any]] = []
+
+        for message in messages {
+            if let role = message["role"], let content = message["content"] {
+                let geminiRole = role == "assistant" ? "model" : "user"
+                contents.append([
+                    "role": geminiRole,
+                    "parts": [["text": content]]
+                ])
+            }
+        }
+
+        // Build request
+        let url = URL(string: "\(baseURL)/models/gemini-pro:generateContent?key=\(apiKey)")!
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+
+        let payload: [String: Any] = [
+            "contents": contents
+        ]
+
+        request.httpBody = try JSONSerialization.data(withJSONObject: payload)
+
+        // Make request
+        let (data, response) = try await URLSession.shared.data(for: request)
+
+        guard let httpResponse = response as? HTTPURLResponse else {
+            throw NSError(domain: "GeminiService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid response"])
+        }
+
+        guard httpResponse.statusCode == 200 else {
+            let errorMessage = String(data: data, encoding: .utf8) ?? "Unknown error"
+            throw NSError(domain: "GeminiService", code: httpResponse.statusCode, userInfo: [NSLocalizedDescriptionKey: "API Error: \(errorMessage)"])
+        }
+
+        // Parse response
+        guard let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let candidates = json["candidates"] as? [[String: Any]],
+              let firstCandidate = candidates.first,
+              let content = firstCandidate["content"] as? [String: Any],
+              let parts = content["parts"] as? [[String: Any]],
+              let firstPart = parts.first,
+              let text = firstPart["text"] as? String else {
+            throw NSError(domain: "GeminiService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Failed to parse response"])
+        }
+
+        return text
     }
 
     func analyzeImage(_ image: UIImage, prompt: String) async throws -> String {
-        // Implement Gemini Vision API call
-        throw NSError(domain: "GeminiService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Not implemented yet"])
+        guard let imageData = image.jpegData(compressionQuality: 0.8) else {
+            throw NSError(domain: "GeminiService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Failed to convert image"])
+        }
+
+        let base64Image = imageData.base64EncodedString()
+
+        // Build request for Gemini Pro Vision
+        let url = URL(string: "\(baseURL)/models/gemini-pro-vision:generateContent?key=\(apiKey)")!
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+
+        let payload: [String: Any] = [
+            "contents": [[
+                "parts": [
+                    ["text": prompt],
+                    [
+                        "inline_data": [
+                            "mime_type": "image/jpeg",
+                            "data": base64Image
+                        ]
+                    ]
+                ]
+            ]]
+        ]
+
+        request.httpBody = try JSONSerialization.data(withJSONObject: payload)
+
+        // Make request
+        let (data, response) = try await URLSession.shared.data(for: request)
+
+        guard let httpResponse = response as? HTTPURLResponse else {
+            throw NSError(domain: "GeminiService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Invalid response"])
+        }
+
+        guard httpResponse.statusCode == 200 else {
+            let errorMessage = String(data: data, encoding: .utf8) ?? "Unknown error"
+            throw NSError(domain: "GeminiService", code: httpResponse.statusCode, userInfo: [NSLocalizedDescriptionKey: "API Error: \(errorMessage)"])
+        }
+
+        // Parse response
+        guard let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
+              let candidates = json["candidates"] as? [[String: Any]],
+              let firstCandidate = candidates.first,
+              let content = firstCandidate["content"] as? [String: Any],
+              let parts = content["parts"] as? [[String: Any]],
+              let firstPart = parts.first,
+              let text = firstPart["text"] as? String else {
+            throw NSError(domain: "GeminiService", code: -1, userInfo: [NSLocalizedDescriptionKey: "Failed to parse response"])
+        }
+
+        return text
     }
 }
