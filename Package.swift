@@ -28,9 +28,25 @@ let package = Package(
                 .process("Shaders/PhotogrammetryShaders.metal")
             ]
         ),
+        .target(
+            name: "MetaGlassesCore",
+            dependencies: []
+        ),
         .testTarget(
             name: "MetaGlassesCameraTests",
             dependencies: ["MetaGlassesCamera"]
+        ),
+        .testTarget(
+            name: "MetaGlassesCoreTests",
+            dependencies: ["MetaGlassesCamera", "MetaGlassesCore"]
+        ),
+        .testTarget(
+            name: "MetaGlassesIntegrationTests",
+            dependencies: ["MetaGlassesCamera", "MetaGlassesCore"]
+        ),
+        .testTarget(
+            name: "MetaGlassesPerformanceTests",
+            dependencies: ["MetaGlassesCamera", "MetaGlassesCore"]
         )
     ]
 )
